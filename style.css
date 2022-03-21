@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #615bc6;
+  flex-wrap: wrap;
+}
+
+
+.loginCards{
+    background-color: #ffff;
+    width: 45%;
+    height: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px #53535342;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.rightCard{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 45%;
+}
+
+
+h1{
+    color:#000000;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.Fields{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+}
+
+.Fields > label{
+    font-weight: 550;
+    margin: 3px 0px 3px 0px;
+}
+
+.Fields > input{
+    border-radius: 20px;
+    background-color: #e7e7e7;
+    height: 35px;
+    border-radius: 20px;
+    width: 100%;
+    border: unset;
+    padding-left: 8px;
+    outline: none;
+    margin-top: 5px;
+}
+
+
+.btn-Login{
+    color: #fff;
+    background-color: #6fb452;
+    border-radius: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 100%;
+    margin-top: 11px;
+}
+
+a{
+    margin:auto;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0c0c0c;
+}
+
+.or{
+    text-align: center;
+}
